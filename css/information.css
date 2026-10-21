@@ -1,0 +1,53 @@
+body {
+    font-family: Arial;
+    background: #eeeeee;
+    margin: 0;
+}
+
+nav {
+    background: #222;
+    padding: 15px;
+    text-align: center;
+}
+
+.navigation {
+    color: white;
+    margin: 10px;
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+#projects {
+    border: 1px solid #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #222;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #555;
+    padding: 10px;
+}
+
+audio, video {
+    margin-top: 10px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

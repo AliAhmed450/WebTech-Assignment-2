@@ -1,0 +1,72 @@
+/* External CSS */
+
+/* Element selector */
+body {
+    font-family: Arial;
+    background: #eeeeee;
+    margin: 0;
+}
+
+/* Class selector */
+header {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+}
+
+/* ID selector */
+#registration-form {
+    width: 80%;
+    max-width: 700px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+}
+
+/* Attribute selector */
+input[type="email"] {
+    border: 2px solid #555;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+}
+
+input, select, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: blue;
+}
+
+fieldset {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ddd;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
